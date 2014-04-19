@@ -1,0 +1,76 @@
+<html>
+	<div id="background">
+	<head>
+		<link href='http://fonts.googleapis.com/css?family=Playfair+Display+SC' rel='stylesheet' type='text/css'>
+		<title>Claremont Commuters Connect</title>
+		<h1>Find a Ride</h1>
+	</head>
+	<div id="body">
+		<body>
+			<form action="scheduler.html" method="get">
+			<table>
+				<tr>
+					<td>Name: </td>
+					<td><input type="text" name="name"><br></td>
+				</tr>
+				<tr>
+					<td>Where are you going?</td>
+					<td>
+					<form action="">
+					<select name="destination">
+					<option value="Pitzer College">Home</option>
+					<option value="Elementary School">School</option>
+					<option value="Church" selected>Market</option>
+					</select>						
+					</form>
+				</td>
+				</tr>
+				<tr>
+					<td>How many people are you travelling with?</td>
+					<td>
+					<input type="number" name="people" min="1" max="6"><br>
+					</td>
+				<tr>
+
+				<tr>
+					<td>Where are you traveling from?</td>
+					<td><input type="text" name="startDestination"><br></td>
+				</tr>
+
+				<tr>
+					<td>Your email: </td>
+					<td><input type="text" name="email"><br></td>
+				</tr>
+					<td>Your phone number: </td>
+					<td><input type="text" name="phone"><br></td>					
+				</tr>
+		    </table>
+				<input type="submit" value="Find!">
+			</form>
+			<br>
+			<br>
+		<h2> <a href = './Home.html'> Return Home </a></h2>
+		</body>
+	</div>
+</div>
+</html>
+
+<style>
+	h1{
+		text-align: center;
+		font-family: 'Playfair Display SC', serif;
+	}
+	#body{
+		margin-left: 35%;
+		margin-top: 5%;
+		font-family: 'Playfair Display SC', serif;
+	}
+	#background{
+		background-image:url('ridesBG.jpg');
+		width: 1200px;
+		height: 900px;
+	}
+</style>
+
+<!-- JavaScript-->
+<!-- BOOTSTRAP??? -->
